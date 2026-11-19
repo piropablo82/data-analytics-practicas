@@ -1,3 +1,6 @@
+CREATE DATABASE Ventas_Tech_DB; 
+
+USE Ventas_Tech_DB;
 
 --Sección 1 — DROP TABLES
 DROP TABLE IF EXISTS ventas;
@@ -18,7 +21,7 @@ create table categorias
 create table productos
 (
 	id_producto int primary key,
-	nombre_producto varchar(50) not null,
+	nombre_producto varchar(100) not null,
 	id_categoria int,
 	precio decimal (10,2) not null,
 	stock int default(0),
@@ -30,7 +33,7 @@ create table productos
 create table clientes
 (
 	id_cliente int primary key,
-	nombre varchar(50) not null,
+	nombre varchar(100) not null,
 	email varchar(100) unique,
 	ciudad varchar(50),
 	fecha_registro date not null
