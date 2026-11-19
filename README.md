@@ -1,5 +1,3 @@
-# data-analytics-practicas
-
 # Proyecto:
 TechStore
 
