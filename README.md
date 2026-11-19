@@ -1,5 +1,5 @@
 # Proyecto:
-TechStore
+TechStore RetailPro
 
 # Descripción general:
 Diseño e implementación de la base de datos relacional para el análisis de ventas de la tienda.
